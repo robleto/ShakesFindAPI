@@ -1,0 +1,24 @@
+{
+  "generated_at": "2025-09-13T14:54:03.093063+00:00",
+  "count": 1,
+  "severity_counts": {
+    "high": 1,
+    "medium": 0,
+    "low": 0
+  },
+  "severity_weighted": 3,
+  "stale": [
+    {
+      "company": {
+        "id": "sta",
+        "name": "Shakespeare Tavern Atlanta",
+        "url": "https://www.shakespearetavern.com/on-stage/"
+      },
+      "reasons": [
+        "empty_page"
+      ],
+      "severity": "high",
+      "info": {}
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "companies": [
+    {
+      "company": {
+        "id": "asf",
+        "name": "Alabama Shakespeare Festival",
+        "url": "https://asf.net/Season-54"
+      },
+      "events": [
+        {
+          "company_id": "asf",
+          "company_name": "Alabama Shakespeare Festival",
+          "title_display": "AGATHA CHRISTIE'S MURDER ON THE ORIENT EXPRESS",
+          "canonical_title": null,
+          "is_shakespeare": false,
+          "start_date": "2025-10-02",
+          "end_date": "2025-10-26",
+          "venue": "Festival Stage",
+          "show_url": null,
+          "source_page": "https://asf.net/Season-54",
+          "source_hash": "daf139316aceed70820d3de4dc277b45b54b8f25",
+          "match_confidence": 0.0,
+          "raw_dates_text": "AGATHA CHRISTIE'S MURDER ON THE ORIENT EXPRESSOCTOBER 2 – OCTOBER 26, 2025",
+          "date_confidence": 0.95,
+          "fetched_at_utc": "2025-09-13T14:42:38.224190+00:00",
+          "play_id": null
+        },
+        {
+          "company_id": "asf",
+          "company_name": "Alabama Shakespeare Festival",
+          "title_display": "DISNEY'S FROZEN THE BROADWAY MUSICAL",
+          "canonical_title": null,
+          "is_shakespeare": false,
+          "start_date": "2025-11-26",
+          "end_date": "2026-01-04",
+          "venue": "Festival Stage",
+          "show_url": null,
+          "source_page": "https://asf.net/Season-54",
+          "source_hash": "3fab649e8903fa8cc4ac6ef4d53861b2292c9bf9",
+          "match_confidence": 0.0,
+          "raw_dates_text": "DISNEY'S FROZEN THE BROADWAY MUSICALNOVEMBER 26, 2025 – JANUARY 4, 2026Music & Lyrics by Kristen Anderson-Lopez & Robert Lopez. Book by Jenn",
+          "date_confidence": 0.95,
+          "fetched_at_utc": "2025-09-13T14:42:38.224305+00:00",
+          "play_id": null
+        },
+        {
+          "company_id": "asf",
+          "company_name": "Alabama Shakespeare Festival",
+          "title_display": "THE LEHMAN TRILOGY",
+          "canonical_title": null,
+          "is_shakespeare": false,
+          "start_date": "2026-01-29",
+          "end_date": "2026-02-15",
+          "venue": "Octagon Stage",
+          "show_url": null,
+          "source_page": "https://asf.net/Season-54",
+          "source_hash": "4a18125966c6d5b468bd70cf9bbf44f03eecf516",
+          "match_confidence": 0.0,
+          "raw_dates_text": "THE LEHMAN TRILOGYJANUARY 29 – FEBRUARY 15, 2026",
+          "date_confidence": 0.95,
+          "fetched_at_utc": "2025-09-13T14:42:38.224432+00:00",
+          "play_id": null
+        },
+        {
+          "company_id": "asf",
+          "company_name": "Alabama Shakespeare Festival",
+          "title_display": "UNFORGETTABLE: JOHN-MARK MCGAHA SINGS NAT KING COLE",
+          "canonical_title": null,
+          "is_shakespeare": false,
+          "start_date": "2026-02-12",
+          "end_date": "2026-02-15",
+          "venue": "Festival Stage",
+          "show_url": null,
+          "source_page": "https://asf.net/Season-54",
+          "source_hash": "00aed9f4d657e7f50b7898a77033db70d48e9968",
+          "match_confidence": 0.0,
+          "raw_dates_text": "UNFORGETTABLE: JOHN-MARK MCGAHA SINGS NAT KING COLEFEBRUARY 12 – FEBRUARY 15, 2026Festival Stage | Ages 14+An unforgettable concert honoring",
+          "date_confidence": 0.95,
+          "fetched_at_utc": "2025-09-13T14:42:38.224510+00:00",
+          "play_id": null
+        },
+        {
+          "company_id": "asf",
+          "company_name": "Alabama Shakespeare Festival",
+          "title_display": "MUCH ADO ABOUT NOTHING",
+          "canonical_title": "Much Ado About Nothing",
+          "is_shakespeare": true,
+          "start_date": "2026-03-19",
+          "end_date": "2026-04-05",
+          "venue": "By William Shakespeare Festival Stage",
+          "show_url": null,
+          "source_page": "https://asf.net/Season-54",
+          "source_hash": "85a15f39a2356a617a6f3316996b4c8c83e00e85",
+          "match_confidence": 0.9,
+          "raw_dates_text": "WILLIAM SHAKESPEARE'S MUCH ADO ABOUT NOTHINGMARCH 19 – APRIL 5, 2026",
+          "date_confidence": 0.95,
+          "fetched_at_utc": "2025-09-13T14:42:38.224562+00:00",
+          "play_id": null
+        },
+        {
+          "company_id": "asf",
+          "company_name": "Alabama Shakespeare Festival",
+          "title_display": "ReCON$truXion",
+          "canonical_title": null,
+          "is_shakespeare": false,
+          "start_date": "2026-04-23",
+          "end_date": "2026-05-03",
+          "venue": "By Robert Schenkkan Octagon Stage",
+          "show_url": null,
+          "source_page": "https://asf.net/Season-54",
+          "source_hash": "aa53b7e5a29ded573371406a602f3471fb8c58ad",
+          "match_confidence": 0.0,
+          "raw_dates_text": "ReCON$truXionAPRIL 23 – MAY 3, 2026",
+          "date_confidence": 0.95,
+          "fetched_at_utc": "2025-09-13T14:42:38.224674+00:00",
+          "play_id": null
+        },
+        {
+          "company_id": "asf",
+          "company_name": "Alabama Shakespeare Festival",
+          "title_display": "CHICKEN & BISCUITS",
+          "canonical_title": null,
+          "is_shakespeare": false,
+          "start_date": "2026-06-04",
+          "end_date": "2026-06-21",
+          "venue": "By Douglas Lyons Octagon Stage",
+          "show_url": null,
+          "source_page": "https://asf.net/Season-54",
+          "source_hash": "5ad0b652cc7e51337b8264b3144c1c096b0da414",
+          "match_confidence": 0.0,
+          "raw_dates_text": "CHICKEN & BISCUITSJUNE 4 – JUNE 21, 2026",
+          "date_confidence": 0.95,
+          "fetched_at_utc": "2025-09-13T14:42:38.224790+00:00",
+          "play_id": null
+        },
+        {
+          "company_id": "asf",
+          "company_name": "Alabama Shakespeare Festival",
+          "title_display": "BEAUTIFUL: THE CAROLE KING MUSICAL",
+          "canonical_title": null,
+          "is_shakespeare": false,
+          "start_date": "2026-07-16",
+          "end_date": "2026-08-16",
+          "venue": "Festival Stage",
+          "show_url": null,
+          "source_page": "https://asf.net/Season-54",
+          "source_hash": "7ddec81ff64b59431c12dcb41d5ec28eae9b12e5",
+          "match_confidence": 0.0,
+          "raw_dates_text": "BEAUTIFUL: THE CAROLE KING MUSICALJULY 16 – AUGUST 16, 2026Book by Douglas McGrath. Words & Music by Gerry Goffin & Carole King, Barry Mann ",
+          "date_confidence": 0.95,
+          "fetched_at_utc": "2025-09-13T14:42:38.224905+00:00",
+          "play_id": null
+        }
+      ],
+      "meta": {
+        "stale": false,
+        "reasons": [],
+        "severity": null,
+        "info": {
+          "latest_end": "2026-08-16",
+          "season_number": 54
+        }
+      }
+    },
+    {
+      "company": {
+        "id": "asc",
+        "name": "American Shakespeare Center",
+        "url": "https://americanshakespearecenter.com/seasons/fall-2025/"
+      },
+      "events": [
+        {
+          "company_id": "asc",
+          "company_name": "American Shakespeare Center",
+          "title_display": "Romeo and Juliet 2025",
+          "canonical_title": "Romeo and Juliet",
+          "is_shakespeare": true,
+          "start_date": "2025-08-28",
+          "end_date": "2025-11-15",
+          "venue": null,
+          "show_url": "https://americanshakespearecenter.com/events/romeo-and-juliet-2025/",
+          "source_page": "https://americanshakespearecenter.com/seasons/fall-2025/",
+          "source_hash": "ba90286dd96526e82e84cfb4b5b427345809e3b3",
+          "match_confidence": 0.9,
+          "raw_dates_text": "August 28, 2025 – November 15, 2025",
+          "date_confidence": 1.0,
+          "fetched_at_utc": "2025-09-13T14:42:38.274229+00:00",
+          "play_id": null
+        },
+        {
+          "company_id": "asc",
+          "company_name": "American Shakespeare Center",
+          "title_display": "The Two Gentlemen of Verona 2025",
+          "canonical_title": "The Two Gentlemen of Verona",
+          "is_shakespeare": true,
+          "start_date": "2025-09-11",
+          "end_date": "2025-11-15",
+          "venue": null,
+          "show_url": "https://americanshakespearecenter.com/events/the-two-gentlemen-of-verona-2025/",
+          "source_page": "https://americanshakespearecenter.com/seasons/fall-2025/",
+          "source_hash": "7744066027fa5dde347f3abe63ffe06d7df7f6b9",
+          "match_confidence": 0.9,
+          "raw_dates_text": "September 11 – November 15",
+          "date_confidence": 0.7,
+          "fetched_at_utc": "2025-09-13T14:42:38.322314+00:00",
+          "play_id": null
+        },
+        {
+          "company_id": "asc",
+          "company_name": "American Shakespeare Center",
+          "title_display": "The Pirate Ballad of Bonny and Read 2025",
+          "canonical_title": null,
+          "is_shakespeare": false,
+          "start_date": "2025-10-16",
+          "end_date": "2025-11-16",
+          "venue": null,
+          "show_url": "https://americanshakespearecenter.com/events/the-pirate-ballad-of-bonny-and-read-2025/",
+          "source_page": "https://americanshakespearecenter.com/seasons/fall-2025/",
+          "source_hash": "adff2601f4aa87c1b34765edabd85def8baf192f",
+          "match_confidence": 0.0,
+          "raw_dates_text": "October 16 – November 16",
+          "date_confidence": 0.7,
+          "fetched_at_utc": "2025-09-13T14:42:38.323976+00:00",
+          "play_id": null
+        }
+      ],
+      "meta": {
+        "stale": false,
+        "reasons": [],
+        "severity": null,
+        "info": {
+          "latest_end": "2025-11-16",
+          "url_year": 2025,
+          "season_token": true
+        }
+      }
+    },
+    {
+      "company": {
+        "id": "sta",
+        "name": "Shakespeare Tavern Atlanta",
+        "url": "https://www.shakespearetavern.com/on-stage/"
+      },
+      "events": [],
+      "meta": {
+        "stale": true,
+        "reasons": [
+          "empty_page"
+        ],
+        "severity": "high",
+        "info": {}
+      }
+    }
+  ],
+  "_summary": {
+    "total_events": 11,
+    "shakespeare_events": 3,
+    "stale_companies": 1,
+    "stale_severity_counts": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "stale_severity_weighted": 3
+  },
+  "_meta": {
+    "generated_at_utc": "2025-09-13T14:42:38.527596",
+    "record_count": 11,
+    "shakespeare_events": 3
+  }
+}

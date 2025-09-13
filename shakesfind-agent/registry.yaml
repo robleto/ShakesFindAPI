@@ -1,0 +1,48 @@
+- id: asf
+  name: Alabama Shakespeare Festival
+  timezone: America/Chicago
+  url: https://asf.net/Season-54
+  strategy: [html]
+  html:
+    # Each production appears inside a wrapper with class et_pb_team_member_description based on provided snippet
+    list: .et_pb_team_member_description
+    fields:
+      title: h4
+      # We'll treat the combined <div><p> block as dates+meta, will parse further later
+      dates: div
+      url: h4 a@href
+      venue: div p@text
+  normalize: {}
+
+- id: asc
+  name: American Shakespeare Center
+  timezone: America/New_York
+  url: https://americanshakespearecenter.com/seasons/fall-2025/
+  strategy: [html]
+  html:
+    list: .summary-mc_event
+    fields:
+      # Each event card h3 contains a link with a span.title
+      title: 'h3 span.title, h3, h2'
+      dates: '.event-overview__dates'
+      url: 'h3 a@href'
+  normalize: {}
+
+- id: sta
+  name: Shakespeare Tavern Atlanta
+  timezone: America/New_York
+  url: https://www.shakespearetavern.com/on-stage/
+  strategy: [html]
+  html:
+    # list still omitted to exercise fallback for initial discovery
+    detail_links: 'a.buy-tickets-button'
+    detail:
+      fields:
+        title: 'figcaption h1'
+        dates: 'figcaption p.prod-dates'
+        url: 'a.buy-tickets-button@href'
+  inline_detail: true
+  normalize: {}
+  offline_html: snapshots/sta/on-stage.html
+  offline_detail_dir: snapshots/sta/details
+  no_network: true

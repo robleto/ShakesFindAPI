@@ -1,0 +1,17 @@
+- id: folger
+  name: Folger Theatre
+  timezone: America/New_York
+  url: https://www.folger.edu/whats-on/
+  strategy: [jsonld, html]
+  html:
+    list: section.shows .show-card
+    fields:
+      title: .show-title
+      dates: .show-dates
+      url: a@href
+      venue: .venue
+  normalize:
+    date_formats: ["MMMM d, yyyy", "MMM d – MMM d, yyyy"]
+    title_cleanup:
+      - regex: "The [Ff]olger Presents[: ]"
+        replace: ""

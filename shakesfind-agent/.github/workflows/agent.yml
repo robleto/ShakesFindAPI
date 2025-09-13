@@ -1,0 +1,30 @@
+name: ShakesFind Agent
+
+on:
+  schedule:
+    - cron: '30 13,16,19 * * 1-5'  # 9a/12p/3p ET weekdays
+  workflow_dispatch: {}
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Set timezone
+        run: echo "TIMEZONE_DEFAULT=America/New_York" >> $GITHUB_ENV
+      - name: Run agent
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          COMPANIES_DB_ID: ${{ secrets.COMPANIES_DB_ID }}
+          PLAYS_DB_ID: ${{ secrets.PLAYS_DB_ID }}
+          PRODUCTIONS_DB_ID: ${{ secrets.PRODUCTIONS_DB_ID }}
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+        run: |
+          python main.py

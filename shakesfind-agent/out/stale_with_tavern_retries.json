@@ -1,0 +1,54 @@
+{
+  "generated_at": "2025-09-13T15:02:59.445654+00:00",
+  "count": 3,
+  "severity_counts": {
+    "high": 3,
+    "medium": 0,
+    "low": 0
+  },
+  "severity_weighted": 9,
+  "stale": [
+    {
+      "company": {
+        "id": "asf",
+        "name": "Alabama Shakespeare Festival",
+        "url": "https://asf.net/Season-54"
+      },
+      "reasons": [
+        "empty_page",
+        "season_number_empty"
+      ],
+      "severity": "high",
+      "info": {
+        "season_number": 54
+      }
+    },
+    {
+      "company": {
+        "id": "asc",
+        "name": "American Shakespeare Center",
+        "url": "https://americanshakespearecenter.com/seasons/fall-2025/"
+      },
+      "reasons": [
+        "empty_page"
+      ],
+      "severity": "high",
+      "info": {
+        "url_year": 2025,
+        "season_token": true
+      }
+    },
+    {
+      "company": {
+        "id": "sta",
+        "name": "Shakespeare Tavern Atlanta",
+        "url": "https://www.shakespearetavern.com/on-stage/"
+      },
+      "reasons": [
+        "empty_page"
+      ],
+      "severity": "high",
+      "info": {}
+    }
+  ]
+}
