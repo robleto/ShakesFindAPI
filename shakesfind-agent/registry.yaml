@@ -46,3 +46,94 @@
   offline_html: snapshots/sta/on-stage.html
   offline_detail_dir: snapshots/sta/details
   no_network: true
+
+- id: cst
+  name: Chicago Shakespeare Theater
+  timezone: America/Chicago
+  url: https://www.chicagoshakes.com/current-season/
+  strategy: [html]
+  html:
+    list: 'article[class*="production-card"], .production-item, .event-card'
+    fields:
+      title: 'h2, h3, .production-title, .event-title'
+      dates: '.dates, .production-dates, .event-dates'
+      url: 'a@href'
+  normalize: {}
+
+- id: bsf
+  name: Baltimore Shakespeare Factory
+  timezone: America/New_York
+  url: https://www.baltimoreshakespearefactory.org/our-season
+  strategy: [html]
+  html:
+    list: '.season-show, .production-item, article'
+    fields:
+      title: 'h1, h2, h3, .show-title'
+      dates: '.dates, .show-dates, p:contains("June"), p:contains("August")'
+      url: 'a@href'
+  normalize: {}
+
+- id: csc
+  name: Children's Shakespeare Theatre
+  timezone: America/New_York
+  url: https://www.childrensshakespeare.org/
+  strategy: [html]
+  html:
+    list: '.show-info, .upcoming-show, .event-item'
+    fields:
+      title: 'h1, h2, h3, .show-title'
+      dates: '.dates, .show-dates, p:contains("Nov")'
+      url: 'a@href'
+  normalize: {}
+
+- id: dss
+  name: Delaware Shakespeare
+  timezone: America/New_York
+  url: https://delshakes.org/
+  strategy: [html]
+  html:
+    list: '.wp-block-group, article, .event-item'
+    fields:
+      title: 'h2, h3, .entry-title'
+      dates: 'p:contains("Oct"), p:contains("Jul"), p:contains("Aug"), .dates'
+      url: 'a@href'
+  normalize: {}
+
+- id: ctm
+  name: Classic Theatre of Maryland
+  timezone: America/New_York
+  url: https://www.classictheatremd.org/
+  strategy: [html]
+  html:
+    list: '.show-item, .production-card, .season-show'
+    fields:
+      title: 'h1, h2, h3, .show-title'
+      dates: 'p:contains("Oct"), p:contains("Nov"), .dates'
+      url: 'a@href'
+  normalize: {}
+
+- id: csg
+  name: Classic Stage Company
+  timezone: America/New_York
+  url: https://classicstage.org/
+  strategy: [html]
+  html:
+    list: '.elementor-section, .elementor-column, .elementor-widget'
+    fields:
+      title: 'a[href*="bakers-wife"], .elementor-button-text, .hfe-sub-menu-item'
+      dates: ':contains("OCTOBER"), :contains("DECEMBER"), :contains("2025")'
+      url: 'a@href'
+  normalize: {}
+
+- id: cng
+  name: Coin & Ghost
+  timezone: America/Los_Angeles
+  url: https://coinandghost.com/
+  strategy: [html]
+  html:
+    list: '.show-info, .production-item, article'
+    fields:
+      title: 'h1, h2, h3, .show-title'
+      dates: '.dates, p:contains("2025")'
+      url: 'a@href'
+  normalize: {}
